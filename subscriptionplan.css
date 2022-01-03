@@ -1,0 +1,83 @@
+.subscriptionplan
+{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.subscription_plan
+{
+    align-items: center;
+    justify-content: center; 
+    padding: 0px;
+    border: 0px;
+}
+
+.columns
+{
+    float: left;
+    width: 120px;
+    line-height: 20px;
+    padding: 0px;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0px 0px 0px;
+    border-radius: 5px;
+    
+}
+
+.subscription
+{ 
+    list-style-type: none;
+    border: 0px solid black;
+    width: 120px;
+    line-height: 20px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px 0;
+}
+
+.subscription:hover
+{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.subscription .header
+{
+    background-color: skyblue;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font size: 20px;
+    text-align: center;
+}
+
+.subscription .price
+{
+    background-color: white;
+    font-size: 25px;
+    font-style: bold;
+    text-align: center;
+    padding-top: 8px;
+}
+
+
+.subscription .text
+{
+    background-color: white;
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px; 
+}
+
+.subscription .details
+{
+    background-color: white;
+    font-size: 15px;
+    text-align: left;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
